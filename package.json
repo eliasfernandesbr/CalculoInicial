@@ -1,0 +1,37 @@
+{
+  "name": "calculoinicial",
+  "version": "1.0.0",
+  "description": "Liquidacao de Inicial",
+  "main": "main.js",
+  "scripts": {
+    "start": " electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliasfernandesbr/CalculoInicial.git"
+  },
+  "keywords": [
+    "eliasf"
+  ],
+  "author": "eliasFernandes e jhessinyMattos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliasfernandesbr/CalculoInicial/issues"
+  },
+  "build":{
+    "appId": "com.calculoinicial",
+    "win": {
+      "icon": "../imagens/icons/calcIcon.png"
+    }  
+
+    
+    },
+
+  "homepage": "https://github.com/eliasfernandesbr/CalculoInicial#readme",
+  "devDependencies": {
+    "electron": "^11.0.5",
+    "electron-builder": "^22.9.1"
+  }
+}
